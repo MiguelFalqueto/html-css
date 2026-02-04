@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Outras formas de mídia</h1>
+    <hr>
+    <h2>Fotos que se adaptam</h2>                  <!--foto-->
+    <p>Abra este site um vários dispositivos diferentes <br> ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem que se adapta">
+    </picture>
+    <h2>Áudio</h2>                                 <!--audio-->
+    <p>Agora, vamos colocar um áudio nesta página</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/megaknight-sneaky.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Vídeo</h2>                                 <!--video-->
+    <h3>Vídeo hospedado localmente</h3>
+    <p>"Ultrapassou o limite de armazenamento do GitHub, então tive que tirar"</p>
+    <h3>Vídeos externos</h3>
+    <p>Está dando erro</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gqrySQQzvvQ?si=4ImuW63BbeSDvMFa" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Usar link em imagens</h2>                  <!--link imagem-->
+        <a href="seila.html"><img src="imagens/imagem-p.png" alt="imagem"></a>
+</body>
+</html>
