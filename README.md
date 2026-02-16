@@ -38,7 +38,9 @@ Exercício 16 https://miguelfalqueto.github.io/html-css/exercicios/ex16-caixas/i
 
 Exercício 17 https://miguelfalqueto.github.io/html-css/exercicios/ex17-background/index.html
 
-Exercício 18 https://miguelfalqueto.github.io/html-css/exercicios/ex18-tabela/index.html
+Exercício 18 https://miguelfalqueto.github.io/html-css/exercicios/ex18-tabelas/index.html
+
+Exercício 19 https://miguelfalqueto.github.io/html-css/exercicios/ex19-iframe/index.html
 
 
 Desafio 1 https://miguelfalqueto.github.io/html-css/desafios/desafio01/index.html
