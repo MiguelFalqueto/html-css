@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+html, body {
+    background: #233eff url(../imagens/cev-landscape.jpg) fixed no-repeat left bottom;
+    background-size: contain;
+}
+
+article {
+    max-width: 650px;
+}

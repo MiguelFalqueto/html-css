@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+html, body {
+    background: #233eff url(../imagens/cev-portrait.jpg) fixed no-repeat;
+    background-size: contain;
+}
+
+article {
+    max-width: 300px;
+    min-width: 250px;
+}

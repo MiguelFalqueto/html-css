@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário3</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checkbox e Radio button</h1>
+    <form action="" method="post" autocomplete="on">
+        <fieldset>         
+        <fieldset>
+            <legend>Buyu?</legend>
+            <input type="radio" name="buyu" id="isim"><label for="isim">Sou um Buyu ;)</label> <br>
+            <input type="radio" name="buyu" id="inao"><label for="inao">Não sou Buyu >:(</label>
+        </fieldset>
+        <fieldset>
+            <legend>Classe favorita no Brawl Stars</legend>
+            <input type="checkbox" name="tanque" id="itanque"> <label for="itanque">Tanque</label> <br>
+            <input type="checkbox" name="algoz" id="ialgoz"> <label for="ialgoz">Algoz</label> <br>
+            <input type="checkbox" name="suporte" id="isuporte"> <label for="isuporte">Suporte</label> <br>
+            <input type="checkbox" name="controle" id="icontrole"> <label for="icontrole">Controle</label> <br>
+            <input type="checkbox" name="destruidor" id="idestruidor"> <label for="idestruidor">Destruidor</label> <br>
+            <input type="checkbox" name="sniper" id="isniper"> <label for="isniper">Sniper</label> <br>
+            <input type="checkbox" name="lancador" id="ilancador"> <label for="ilancador">Lançador</label>
+        </fieldset>
+        <fieldset>
+            <legend>Outras coisas</legend>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor"> <br>
+
+            <label for="inivel">Nível de satisfação: </label>
+            <input type="range" name="nivel" id="inivel"> <br>
+
+            <label for="iimg">Imagem: </label>
+            <input type="file" name="img" id="iimg"> <br>
+            <label for="ibrawl">Brawler massa</label>
+            <select name="brawl" id="ibrawl">
+                <optgroup label="Classe Tanque">
+                    <option value="El">EL Primo</option>
+                    <option value="Bu">Bull</option>
+                    <option value="Ro">Rosa</option>
+                    <option value="Da">Darryl</option>
+                </optgroup>
+                <optgroup label="Classe Algoz">
+                    <option value="Stu">Stu</option>
+                    <option value="Ed">Edgar</option>
+                    <option value="Sam">Sam</option>
+                    <option value="Sha">Shade</option>
+                </optgroup>
+                <optgroup label="Classe Suporte">
+                    <option value="Po">Poco</option>
+                    <option value="Gus">Gus</option>
+                    <option value="Pam">Pam</option>
+                    <option value="Ber">Berry</option>
+                </optgroup>
+            </select> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        </fieldset>
+    </form>
+    <p><a href="form4.html">Próximo</a></p>
+    <p><a href="form2.html">Voltar</a></p>
+</body>
+</html>

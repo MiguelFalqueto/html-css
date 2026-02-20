@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário4</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Output</h1>
+    <form action="" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Calculadora que soma</legend>
+                <p>
+                    <label for="in1">Número 1: </label>
+                    <input type="number" name="n1" id="in1" min="0" max="50" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                </p>
+                <p>
+                    <label for="in2">Número 2: </label>
+                    <input type="number" name="n2" id="in2" min="0" max="50" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                </p>
+                <p>
+                    <label for="isoma">Soma: </label>
+                    <output name="Soma" id="isoma">0</output>
+                </p>
+            </fieldeset>
+            <fieldset>
+                <p>
+                    <label for="inum1">Número 1: </label>
+                    <input type="range" name="num1" id="inum1" min="0" max="10" value="5" oninput="ivn1.innerHTML = Number(inum1.value)">
+                    <output id="ivn1">5</output>
+                </p>
+                <p>
+                    <label for="inum2">Número 2: </label>
+                    <input type="range" name="num2" id="inum2" min="0" max="10" value="5" oninput="ivn2.innerHTML = Number(inum2.value)">
+                    <output id="ivn2">5</output>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Me fale a sua data de nascimento</legend>
+                <p>
+                    <label for="idata2">Data: </label>
+                    <input type="number" name="data2" id="idata2" min="1900" max="2026" value="2026" oninput="calcidade()">
+                </p>
+                <p>
+                    <label for="iidade2">Sua idade é </label>
+                    <output id="iidade2">0</output>
+                </p>
+            </fieldset>
+        </fieldset>
+    </form>
+    <script>
+        function calcidade() {
+            let atual = new Date().getFullYear()
+            iidade2.innerHTML = Number(atual) - Number(idata2.value)
+        }
+    </script>
+
+    <p><a href="form3.html">Voltar</a></p>
+</body>
+</html>
