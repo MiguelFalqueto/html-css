@@ -6,6 +6,5 @@ html, body {
 }
 
 article {
-    max-width: 300px;
-    min-width: 250px;
+    width: 90%;
 }

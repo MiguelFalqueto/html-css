@@ -44,7 +44,7 @@ Exercício 19 https://miguelfalqueto.github.io/html-css/exercicios/ex19-iframe/i
 
 Exercício 20 https://miguelfalqueto.github.io/html-css/exercicios/ex20-formulario/index.html
 
-Exercício 21 https://miguelfalqueto.github.io/html-css/exercicios/ex21-media_queries/index.html
+Exercício 21 https://miguelfalqueto.github.io/html-css/exercicios/ex21-media_queries/mdq1/index.html
 
 
 Desafio 1 https://miguelfalqueto.github.io/html-css/desafios/desafio01/index.html
