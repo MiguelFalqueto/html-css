@@ -21,7 +21,7 @@ img {
 
 
 @media screen and (max-width: 580px) /*Celular*/ {
-    article { width: 200px; }
+    article { width: 275px; }
 
     html, body {
     background: url(../imagens/back-phone.jpg) no-repeat center center fixed;
